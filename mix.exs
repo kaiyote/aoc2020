@@ -23,7 +23,8 @@ defmodule Aoc2020.MixProject do
   defp deps do
     [
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
+      {:typed_struct, "~> 0.2.1", runtime: false}
     ]
   end
 end

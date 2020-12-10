@@ -3,4 +3,5 @@ defmodule Aoc2020Test do
   use ExUnit.Case, async: true
 
   doctest Aoc2020.Day1, import: true
+  doctest Aoc2020.Day2, import: true
 end
