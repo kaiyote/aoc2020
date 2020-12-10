@@ -12,10 +12,7 @@ defmodule Aoc2020.Day1 do
       ...>        1456")
       514579
 
-      iex> "./data/day1.txt"
-      ...> |> Path.relative_to_cwd()
-      ...> |> File.read!()
-      ...> |> part1()
+      iex> Aoc2020.load_data(1) |> part1()
       211899
   """
   @spec part1(String.t()) :: integer()
@@ -36,10 +33,7 @@ defmodule Aoc2020.Day1 do
       ...>        1456")
       241861950
 
-      iex> "./data/day1.txt"
-      ...> |> Path.relative_to_cwd()
-      ...> |> File.read!()
-      ...> |> part2()
+      iex> Aoc2020.load_data(1) |> part2()
       275765682
   """
   @spec part2(String.t()) :: integer()

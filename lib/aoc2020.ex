@@ -1,18 +1,10 @@
 defmodule Aoc2020 do
-  @moduledoc """
-  Documentation for `Aoc2020`.
-  """
+  @moduledoc false
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Aoc2020.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  @spec load_data(integer()) :: binary
+  def load_data(day) do
+    "./data/day#{day}.txt"
+    |> Path.relative_to_cwd()
+    |> File.read!()
   end
 end
