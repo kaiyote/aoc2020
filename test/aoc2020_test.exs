@@ -4,4 +4,5 @@ defmodule Aoc2020Test do
 
   doctest Aoc2020.Day1, import: true
   doctest Aoc2020.Day2, import: true
+  doctest Aoc2020.Day3, import: true
 end
