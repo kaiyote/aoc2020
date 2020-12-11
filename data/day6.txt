@@ -1,46 +1,4 @@
-import { part1, part2 } from '../day6'
-
-describe('day 6', () => {
-  const sampleInput = `
-  abc
-
-  a
-  b
-  c
-
-  ab
-  ac
-
-  a
-  a
-  a
-  a
-
-  b
-  `
-
-  it('part 1 example works', () => {
-    const actual = part1(sampleInput)
-    expect(actual).toBe(11)
-  })
-
-  it('part 1 works', () => {
-    const actual = part1(input)
-    expect(actual).toBe(6775)
-  })
-
-  it('part 2 example works', () => {
-    const actual = part2(sampleInput)
-    expect(actual).toBe(6)
-  })
-
-  it('part 2 works', () => {
-    const actual = part2(input)
-    expect(actual).toBe(3356)
-  })
-
-  const input = `
-  elmcifawqgkp
+elmcifawqgkp
 dynwslejfcrkpv
 
 pagrovuzscemqiy
@@ -2266,5 +2224,3 @@ pxsdylnmfhq
 pyduhnqmfxl
 dpmqchxtnlbyf
 hnpqlxydfm
-  `
-})
