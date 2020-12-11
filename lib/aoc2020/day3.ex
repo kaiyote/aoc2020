@@ -10,8 +10,6 @@ defmodule Aoc2020.Day3 do
   end
 
   @moduledoc ~S"""
-    ## Examples
-
       iex> sample = "..##.......
       ...>          #...#...#..
       ...>          .#....#..#.

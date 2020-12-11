@@ -2,8 +2,6 @@ defmodule Aoc2020.Day1 do
   @moduledoc false
 
   @doc ~S"""
-    ## Examples
-
       iex> part1("1721
       ...>        979
       ...>        366
@@ -23,8 +21,6 @@ defmodule Aoc2020.Day1 do
   end
 
   @doc ~S"""
-    ## Examples
-
       iex> part2("1721
       ...>        979
       ...>        366

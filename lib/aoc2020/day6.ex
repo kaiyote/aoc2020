@@ -2,8 +2,6 @@ defmodule Aoc2020.Day6 do
   @moduledoc false
 
   @doc ~S"""
-    ## Examples
-
       iex> part1("abc
       ...>
       ...> a

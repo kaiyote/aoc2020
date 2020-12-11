@@ -10,8 +10,6 @@ defmodule Aoc2020.Day2 do
   end
 
   @doc ~S"""
-    ## Examples
-
       iex> part1("1-3 a: abcde
       ...> 1-3 b: cdefg
       ...> 2-9 c: ccccccccc")
@@ -33,8 +31,6 @@ defmodule Aoc2020.Day2 do
   end
 
   @doc ~S"""
-    ## Examples
-
       iex> part2("1-3 a: abcde
       ...> 1-3 b: cdefg
       ...> 2-9 c: ccccccccc")

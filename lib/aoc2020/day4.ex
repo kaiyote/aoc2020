@@ -14,8 +14,6 @@ defmodule Aoc2020.Day4 do
   end
 
   @doc ~S"""
-    ## Examples
-
       iex> sample = "ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
       ...> byr:1937 iyr:2017 cid:147 hgt:183cm
       ...>
@@ -44,8 +42,6 @@ defmodule Aoc2020.Day4 do
   end
 
   @doc ~S"""
-    ## Examples
-
       iex> sample = "eyr:1972 cid:100
       ...> hcl:#18171d ecl:amb hgt:170 pid:186cm iyr:2018 byr:1926
       ...>
