@@ -8,5 +8,6 @@ defmodule Aoc2020Test do
   doctest Aoc2020.Day4, import: true
   doctest Aoc2020.Day5, import: true
   doctest Aoc2020.Day6, import: true
-  doctest Aoc2020.Day7, import: true
+  # doctest Aoc2020.Day7, import: true # day 7 is slo, comment it out
+  doctest Aoc2020.Day8, import: true
 end
